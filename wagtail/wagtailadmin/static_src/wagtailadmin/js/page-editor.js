@@ -4,12 +4,12 @@
 // hooked in with insert_editor_js (and hallo-bootstrap.js runs too late)
 var halloPlugins = {
     halloformat: {},
-    halloheadings: {formatBlocks: ['p', 'h2', 'h3', 'h4', 'h5']},
+    halloheadings: {formatBlocks: ['p', 'h2', 'h3', 'h4']},
     hallolists: {},
-    hallohr: {},
     halloreundo: {},
     hallowagtaillink: {},
-    hallorequireparagraphs: {}
+    hallorequireparagraphs: {},
+    hallohtml: {}
 };
 
 function registerHalloPlugin(name, opts) {

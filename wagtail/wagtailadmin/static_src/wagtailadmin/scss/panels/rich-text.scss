@@ -187,6 +187,10 @@
     }
 }
 
+.html_source {
+    height: 360px;
+}
+
 @media screen and (min-width: $breakpoint-mobile) {
     .hallotoolbar.full {
         margin-left: $desktop-nice-padding;

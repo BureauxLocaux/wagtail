@@ -885,7 +885,7 @@
         $buttonHolder = jQuery('<span>');
         $buttonHolder.hallobutton({
           label: this.texts.title,
-          icon: 'icon-list-alt',
+          icon: 'icon icon-fa-edit',  // requires font-awesome
           editable: this.options.editable,
           command: null,
           queryState: false,
